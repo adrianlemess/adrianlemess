@@ -1,6 +1,6 @@
 /*!
  * Adrian Lemes -  v1.0.0 (www.github.com/adrianlemess)
- * Copyright 2016-2016 Adrian Lemes
+ * Copyright 2016-2017 Adrian Lemes
  */
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -148,4 +148,25 @@ section#about {
   font-size: 15px;
   color: #8c9398;
   word-spacing: 1px;
+}
+@media (min-width: 1200px) {
+  #about .container {
+    width: 1170px;
+  }
+}
+@media (min-width: 992px) {
+  #about .container {
+    width: 970px;
+  }
+}
+@media (min-width: 768px) {
+  #about .container {
+    width: 750px;
+  }
+}
+#about .container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
