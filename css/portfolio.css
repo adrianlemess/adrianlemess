@@ -3,7 +3,7 @@
  * Copyright 2016-2017 Adrian Lemes
  */
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
 }
 header {
@@ -19,16 +19,15 @@ header .intro-text {
   padding: 0;
 }
 header .intro-text .name {
+  font-family: 'Bree Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
   font-weight: 700;
   font-size: 2em;
   margin-bottom: 0%;
 }
 header .intro-text .skills {
   font-size: 1.11em;
-  font-weight: 300;
+  font-weight: 400;
 }
 @media (min-width: 568px) {
   header .container {
@@ -123,24 +122,8 @@ section#about {
 #about .title-about {
   padding-bottom: 2%;
 }
-#about .about-text {
-  padding-top: 20px;
-  text-align: justify;
-}
 #about img {
   border-radius: 50%;
-}
-#about h1 {
-  font-size: 30px;
-  color: #242830;
-  padding-bottom: 25px;
-}
-#about p {
-  line-height: 25px;
-  padding-bottom: 25px;
-  font-size: 15px;
-  color: #8c9398;
-  word-spacing: 1px;
 }
 @media (min-width: 1200px) {
   #about .container {
@@ -167,6 +150,22 @@ section#about {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+#about .container .about-text {
+  padding-top: 20px;
+  text-align: justify;
+}
+#about .container p {
+  line-height: 25px;
+  padding-bottom: 25px;
+  font-size: 15px;
+  color: #8c9398;
+  word-spacing: 1px;
+}
+#about .container h1 {
+  font-size: 30px;
+  color: #242830;
+  padding-bottom: 25px;
 }
 .avatar {
   width: 200px;

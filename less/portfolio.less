@@ -2,7 +2,9 @@
 @import "mixins.less";
 
 body {
-	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	// font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
 	overflow-x: hidden;
 }
 
@@ -15,18 +17,19 @@ header {
 		padding-bottom: 50px;
 	}
 	.intro-text {
+		//  font-family: "Pacifico","Montserrat","Roboto", "Open Sans";
+
 		 padding: 0;
 		.name {
+			font-family: 'Bree Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 			display: block;
-			font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-			text-transform: uppercase;
 			font-weight: 700;
 			font-size: 2em;
 			margin-bottom: 0%;
 		}
 		.skills {
 			font-size: 1.11em;
-			font-weight: 300;
+			font-weight: 400;
 		}
 	}
 }
@@ -158,28 +161,13 @@ section#about {
 #about .title-about {
 	padding-bottom: 2%;
 }
-#about .about-text {
-	padding-top: 20px;
-	text-align: justify;
-}
+
 
 #about img {
 	border-radius: 50%;
 }
 
-#about h1{
-    font-size: 30px;
-    color: #242830;
-    padding-bottom: 25px;
-}
 
-#about p {
-    line-height: 25px;
-    padding-bottom: 25px;
-    font-size: 15px;
-    color: #8c9398;
-    word-spacing: 1px;
-}
 
 @media (min-width: 1200px){
 #about .container {
@@ -208,6 +196,22 @@ section#about {
 		margin-left: auto;
 		padding-left: 15px;
 		padding-right: 15px;
+		.about-text {
+			padding-top: 20px;
+			text-align: justify;
+		}
+		p {
+			line-height: 25px;
+			padding-bottom: 25px;
+			font-size: 15px;
+			color: #8c9398;
+			word-spacing: 1px;
+		}
+		h1{
+			font-size: 30px;
+			color: #242830;
+			padding-bottom: 25px;
+		}
 	}
 }
 .avatar {

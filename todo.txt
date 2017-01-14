@@ -1,5 +1,5 @@
 Flat icons by flaticons.com
-LESS files and compiled CSS included
+LESS files and compiled CSS included x
 Fixed top navigation that collapses on scroll
 Scrollspy on navigation items
 Perfectly responsive portfolio grid with hover effects
@@ -14,3 +14,10 @@ Includes jqBootstrapValidation plugin for contact form validation
 I'm always interested in working on new projects. If you're interested in working together, please send over information about your project's scope, timeline, expected deliverables and budget.
 Ready to start your next project with me? That's great! Give me a call or send me an email and I will get back to you as soon as possible!
 
+
+- Multi-language Support: portuguese and english
+- Choose the typography
+- Choose a better favicon.ico
+- Sections:
+    - Footer (Twitter integration, blog integration and all my contacts) 
+        - http://mazemax.github.io/ use the social networks like him
