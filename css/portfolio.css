@@ -157,6 +157,11 @@ section#about {
     width: 750px;
   }
 }
+#about .section-title {
+  font-size: 20px;
+  line-height: 30px;
+  font-style: italic;
+}
 #about .container {
   margin-right: auto;
   margin-left: auto;
