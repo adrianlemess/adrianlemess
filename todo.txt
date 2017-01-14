@@ -21,3 +21,16 @@ Ready to start your next project with me? That's great! Give me a call or send m
 - Sections:
     - Footer (Twitter integration, blog integration and all my contacts) 
         - http://mazemax.github.io/ use the social networks like him
+
+        Tecnologias:
+        HTML 5
+        JavaScript
+        CSS3
+        Grunt & Gulp
+        NodeJS
+        AngularJS 1 e 2
+        Ionic 1 e 2
+        Testing
+        C#
+        ASP .MVC 5
+        Rest
