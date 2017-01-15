@@ -1,14 +1,65 @@
-
-
+@rss-color: #F56505;
+@facebook-color: #3B5998;
+@twitter-color: #33ccff;
+@email-color: #ea4335;
+@github-color: #000;
+@skype-color:#00aff0;
+@linkedin-color: #0177b5;
 /*=========================
   Icons
  ================= */
+//  .social-network ul{
+// 		list-style: none;
+// 		display: inline;
+// 		margin-left:0 !important;
+// 		padding: 0;
+// 		li {
+// 			display: inline;
+// 			margin: 0 5px;
+// 			.icon a{
+// 				color:white;
+// 			}
+// 		}
+// 		.icoRss {
+// 			&a:hover {
+// 				background-color:@rss-color;
+// 			}
+// 		}
+// 		.icoFacebook {
+// 			&a:hover {
+// 				background-color:@facebook-color;
+// 			}
+// 		}
+// 		.icoTwitter  {
+// 			&a:hover {
+// 				background-color:@twitter-color;
+// 			}
+// 		}
+// 		.icoEmail {
+// 			&a:hover {
+// 				background-color:@email-color;
+// 			}
+// 		}
+// 		.icoGitHub {
+// 			&a:hover {
+// 				background-color:@github-color;
+// 			}
+// 		}
+// 		.icoLinkedin {
+// 			&a:hover {
+// 				background-color:@linkedin-color;
+// 			}
+// 		}
+// 	 }
+//  }
+
+
 
 /* footer social icons */
 ul.social-network {
 	list-style: none;
 	display: inline;
-	margin-left:0 !important;
+	margin-left:50px !important;
 	padding: 0;
 }
 ul.social-network li {
@@ -18,30 +69,31 @@ ul.social-network li {
 
 
 /* footer social icons */
-.social-network a.icoRss:hover {
-	background-color: #F56505;
+a.icoRss:hover, a.icoRss:active  {
+	background-color: @rss-color !important;
 }
-.social-network a.icoFacebook:hover {
-	background-color:#3B5998;
+a.icoFacebook:hover, a.icoFacebook:active  {
+	background-color:@facebook-color !important;
 }
-.social-network a.icoTwitter:hover {
-	background-color:#33ccff;
+a.icoTwitter:hover, a.icoTwitter:active {
+	background-color:@twitter-color !important;
 }
-.social-network a.icoGoogle:hover {
-	background-color:#BD3518;
+a.icoEmail:hover, a.icoEmail:active  {
+	background-color:@email-color !important;
 }
-.social-network a.icoVimeo:hover {
-	background-color:#0590B8;
+a.icoGitHub:hover, a.icoGitHub:active  {
+	background-color:@github-color !important;
 }
-.social-network a.icoLinkedin:hover {
-	background-color:#007bb7;
+a.icoLinkedin:hover, a.icoLinkedin:active    {
+	background-color:@linkedin-color !important;
 }
+a.icoSkype:hover, a.icoSkype:active    {
+	background-color:@skype-color !important;
+}
+
 .social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
 .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
 	color:#fff;
-}
-a.socialIcon:hover, .socialHoverClass {
-	color:#44BCDD;
 }
 
 .social-circle li a {
