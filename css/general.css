@@ -263,6 +263,28 @@ header .intro-text .skills {
 #portfolio {
   color: #eee;
 }
+footer {
+  text-align: center;
+  background: #3d0e86;
+  color: white;
+}
+u.icon-network-no-effect {
+  color: white;
+  list-style: none;
+  display: inline;
+  margin-left: 50px !important;
+  padding: 0;
+}
+u.icon-network-no-effect li {
+  display: inline;
+  margin: 0 5px;
+}
+u.icon-network-no-effect lia {
+  color: white;
+}
+u.icon-network-no-effecta:hover {
+  color: black;
+}
 body {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
